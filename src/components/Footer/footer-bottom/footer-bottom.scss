@@ -1,3 +1,33 @@
 body {
   background-color: #ffffff;
 }
+.footer-bottom {
+  padding: 75px;
+  border-top: 5px solid red;
+}
+.copyright {
+  color: #5b6b88;
+}
+.me-auto {
+  margin-right: 0 !important;
+}
+.nav-link {
+  padding: 0px 1rem 0px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-align: right;
+}
+
+.terms {
+  > a {
+    font-size: 16px;
+    color: #5b6b88 !important;
+    &:not(:last-child) {
+      border-right: 1px solid #5b6b88;
+    }
+  }
+}
