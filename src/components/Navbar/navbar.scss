@@ -1,0 +1,23 @@
+Navbar {
+  display: flex;
+}
+
+.social-media {
+  > a {
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+}
+.nav-links {
+  a {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+    font-size: 18px;
+    font-family: roboto, arial, helvetica;
+    font-weight: 400;
+    line-height: 32px;
+    color: #94a4c0 !important;
+  }
+}
