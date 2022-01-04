@@ -1,0 +1,59 @@
+.footer-top {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 32px;
+  color: #5b6b88;
+
+  .container {
+    align-items: flex-start;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    img {
+      height: 52px;
+      width: 160px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .tel,
+  .email {
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .footer-link-container {
+    display: flex;
+
+    .footer-links {
+      margin-right: 50px;
+
+      .footer-links-column {
+        width: 150px;
+        height: 150px;
+
+        > a {
+          text-align: left;
+          font-weight: bold;
+          line-height: 32px;
+          color: #345181;
+
+          &:not(:first-child) {
+            line-height: 20px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}
+
+.adress {
+  max-width: 274px;
+  font-weight: normal;
+  text-align: left;
+}
