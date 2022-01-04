@@ -10,6 +10,7 @@ import instagram from '../../../assets/png/ig.png';
 function FooterBottom() {
   return (
     <div>
+      <div className="footer-line"></div>
       <Navbar className="footer-bottom" bg="light" variant="light">
         <Container>
           <Nav className="me-auto social-medias">
