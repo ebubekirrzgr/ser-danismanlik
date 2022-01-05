@@ -46,4 +46,12 @@
 
 .App-wrapper {
   width: 61vw;
+  min-height: 1080px;
+}
+.features-wrapper {
+  width: 100%;
+  min-height: 1080px;
+  background-color: #bdd7fe;
+  display: flex;
+  justify-content: center;
 }

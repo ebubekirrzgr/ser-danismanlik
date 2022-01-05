@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import MainContainer from './components/MainContainer';
+import Features from './components/Features';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <div className="App-wrapper">
           <Navbar />
           <MainContainer />
+        </div>
+        <div className="features-wrapper">
+          <Features />
         </div>
       </div>
       <Footer />
