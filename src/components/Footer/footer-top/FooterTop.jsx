@@ -7,7 +7,7 @@ import logo from '../../../assets/png/Logo.png';
 function FooterTop() {
   return (
     <div>
-      <Navbar className="footer-top" bg="light" variant="light">
+      <Navbar className="footer-top">
         <Container>
           {/* Footer Contact */}
 

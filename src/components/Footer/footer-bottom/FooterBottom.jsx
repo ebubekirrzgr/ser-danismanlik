@@ -11,7 +11,7 @@ function FooterBottom() {
   return (
     <div>
       <div className="footer-line"></div>
-      <Navbar className="footer-bottom" bg="light" variant="light">
+      <Navbar className="footer-bottom">
         <Container>
           <Nav className="me-auto social-medias">
             <Nav.Link href="#facebook">
