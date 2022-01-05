@@ -10,7 +10,7 @@ export default class navbar extends Component {
   render() {
     return (
       <div>
-        <Navbar bg="light" variant="light" fixed="top">
+        <Navbar className="navbar-wrapper">
           <Container>
             <Nav className="me-auto">
               <img
