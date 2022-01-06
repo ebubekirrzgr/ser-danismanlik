@@ -16,7 +16,7 @@ function Features() {
           <p className="features-p">
             The world today seems to run on apps. If it is something that people
             can interact with, then it’s likely that there is an app available
-            for it.{' '}
+            for it.
           </p>
           <Button className="btn btn-blue">
             Get Started
@@ -43,7 +43,7 @@ function Features() {
               <h5 className="box-h5">Headline Goes Here</h5>
               <p className="box-p">
                 If it is something that people can interact with, then it’s
-                likely that there is an app available for it.{' '}
+                likely that there is an app available for it.
               </p>
             </div>
             <div className="box-container">
@@ -51,7 +51,7 @@ function Features() {
               <h5 className="box-h5">Headline Goes Here</h5>
               <p className="box-p">
                 If it is something that people can interact with, then it’s
-                likely that there is an app available for it.{' '}
+                likely that there is an app available for it.
               </p>
             </div>
           </div>
@@ -61,7 +61,7 @@ function Features() {
               <h5 className="box-h5">Headline Goes Here</h5>
               <p className="box-p">
                 If it is something that people can interact with, then it’s
-                likely that there is an app available for it.{' '}
+                likely that there is an app available for it.
               </p>
             </div>
             <div className="box-container">
@@ -69,7 +69,7 @@ function Features() {
               <h5 className="box-h5">Headline Goes Here</h5>
               <p className="box-p">
                 If it is something that people can interact with, then it’s
-                likely that there is an app available for it.{' '}
+                likely that there is an app available for it.
               </p>
             </div>
           </div>
