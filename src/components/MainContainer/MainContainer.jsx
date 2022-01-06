@@ -1,7 +1,7 @@
 import './main-container.scss';
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import img_placeholder from '../../assets/png/img_placeholder.png';
+import imgPlaceholder from '../../assets/png/img_placeholder.png';
 
 function MainContainer() {
   return (
@@ -9,10 +9,10 @@ function MainContainer() {
       <div className="headerContainer">
         <div className="textContainer">
           <h1 className="headerContainerTitle">
-            head of a newspaper <span className="h1Line">story.</span>{' '}
+            head of a newspaper <span className="h1Line">story.</span>
           </h1>
           <p className="headContainerP">
-            What's a resume headline, and how can it help you showcase your
+            What &apos; a resume headline, and how can it help you showcase your
             credentials? A resume headline (also known as a resume title) is a
             brief phrase that highlights your value as a candidate
           </p>
@@ -60,7 +60,7 @@ function MainContainer() {
           </div>
         </div>
         <div className="imageContainer">
-          <img src={img_placeholder} alt="img_placeholder" />
+          <img src={imgPlaceholder} alt="imgPlaceholder" />
         </div>
       </div>
     </div>

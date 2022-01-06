@@ -1,0 +1,35 @@
+.homeContainer {
+  text-align: center;
+  position: relative;
+}
+.top-left-rectangle {
+  position: absolute;
+  top: 0;
+  left: -2px;
+  width: 672px;
+  height: 400px;
+  border-radius: 10px;
+  background: rgba(0, 82, 204, 0.2);
+}
+.homeHeader {
+  background-color: #ffffff;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.homeWrapper {
+  width: 61vw;
+  min-height: 1080px;
+}
+
+.featuresWrapper {
+  width: 100%;
+  min-height: 1080px;
+  background-color: #bdd7fe;
+  display: flex;
+  justify-content: center;
+}

@@ -3,6 +3,8 @@
   justify-content: space-between;
   margin: 26px 0;
   width: 100%;
+  padding: 8px;
+
   .imageContainer {
     display: flex;
     align-items: flex-end;
@@ -11,7 +13,6 @@
   .textContainer {
     .headerContainerTitle {
       width: 619px;
-      padding: 8px;
       font-size: 96px;
       font-weight: 700;
       line-height: 96px;
