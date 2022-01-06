@@ -1,0 +1,127 @@
+.joinUsContainer {
+  background-color: #f5f5f5;
+  padding-left: 370px;
+  padding-top: 170px;
+  min-height: 100vh;
+
+  .joinUsWrapper {
+    max-width: 380px;
+
+    .joinUsForm {
+      margin-top: 40px;
+      label {
+        color: #42526e;
+        font-weight: 400;
+        font-size: 14px;
+      }
+
+      input {
+        background-color: #eaf1fd;
+        border: none;
+
+        &:not([type='checkbox']) {
+          border-radius: 8px;
+          height: 49px;
+        }
+        &[type='checkbox'] {
+          background-color: #a2badd;
+        }
+      }
+
+      button {
+        width: 380px;
+        height: 50px;
+        background-color: #0052cc;
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 400;
+        border-radius: 8px;
+      }
+
+      .formForgotP {
+        margin-top: 30px;
+        letter-spacing: 0.4px;
+        color: #42526e;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+
+    .formLineContainer {
+      display: flex;
+      position: relative;
+      justify-content: center;
+      .signUpP {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        color: #42526e;
+      }
+
+      .formLine1 {
+        position: absolute;
+        background-color: #899cbe;
+        height: 1px;
+        width: 120px;
+        bottom: 24px;
+        left: 0;
+      }
+
+      .formLine2 {
+        position: absolute;
+        background-color: #899cbe;
+        height: 1px;
+        width: 120px;
+        right: 0;
+        bottom: 24px;
+      }
+    }
+
+    .formFacebook {
+      .facebookButton {
+        padding: 0;
+        width: 380px;
+        height: 50px;
+        background-color: #f5f5f5;
+        color: #0052cc;
+        font-weight: normal;
+        font-size: 16px;
+        border: 2px solid #0052cc;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .facebookIcon {
+        width: 50px;
+        border-right: 2px solid #0052cc;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .facebookP {
+        margin: 0;
+        margin-right: 15px;
+        width: 90%;
+      }
+    }
+  }
+
+  .joinUsTextContainer {
+    .joinUsH4 {
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 44px;
+      color: #42526e;
+    }
+
+    .joinUsP {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 26px;
+      color: #42526e;
+    }
+  }
+}
