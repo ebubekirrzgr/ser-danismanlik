@@ -32,4 +32,11 @@
   background-color: #bdd7fe;
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+.sliderWrapper {
+  width: 100%;
+  min-height: 1080px;
+  text-align: left;
 }
