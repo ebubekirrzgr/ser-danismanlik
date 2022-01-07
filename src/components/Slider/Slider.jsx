@@ -7,6 +7,9 @@ import rightArrow from '../../assets/png/right.png';
 import leftArrow from '../../assets/png/left.png';
 import user from '../../assets/png/user.png';
 
+import vector1 from '../../assets/png/vector1.png';
+import vector2 from '../../assets/png/vector2.png';
+
 const Slider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
@@ -47,6 +50,24 @@ const Slider = ({ slides }) => {
             alt="rightArrow"
             className="rightArrow"
           />
+        </div>
+
+        <div className="vectors">
+          <img src={vector1} alt="vector1" />
+          <img src={vector2} alt="vector2" />
+        </div>
+
+        <div className="pagination">
+          {slides.map((slide) => {
+            return (
+              <div
+                key={slide.index}
+                className={
+                  current === slide.index ? 'carouselDot-active' : 'carouselDot'
+                }
+              ></div>
+            );
+          })}
         </div>
 
         {slides.map((slide, index) => {

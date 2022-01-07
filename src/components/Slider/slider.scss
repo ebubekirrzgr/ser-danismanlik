@@ -131,3 +131,35 @@
     position: absolute;
   }
 }
+
+.carouselDot {
+  border: 2px solid #a2badd;
+  background-color: white;
+  border-radius: 50px;
+  width: 10px;
+  height: 10px;
+}
+.carouselDot-active {
+  background-color: #a2badd;
+  border-radius: 50px;
+  width: 10px;
+  height: 10px;
+}
+
+.pagination {
+  width: 100px;
+  position: absolute;
+  bottom: 40px;
+  div:not(first-child) {
+    margin-left: 10px;
+  }
+}
+
+.vectors {
+  position: absolute;
+  bottom: 70px;
+  right: 41%;
+  img:not(first-child) {
+    margin-left: 10px;
+  }
+}
