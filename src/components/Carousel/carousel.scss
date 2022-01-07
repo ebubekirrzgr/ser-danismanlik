@@ -1,0 +1,149 @@
+.carouselMainContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .carouselTextContainer {
+    padding-top: 167px;
+    color: #5b6b88;
+    width: 570px;
+
+    .carouselTitle {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    .carouselH3 {
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+    }
+
+    .carouselContent {
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 26px;
+      height: 96px;
+    }
+  }
+}
+
+.swiper {
+  width: 99vw;
+  height: 360px;
+}
+
+.swiper-slide {
+  height: 280px !important;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  .slideContainer {
+    width: 682px;
+    height: 280px;
+    border-radius: 8px;
+    background-color: #eaf1fd;
+    display: flex;
+    color: #5b6b88;
+    .slideUser {
+      position: relative;
+      width: 280px;
+      height: 280px;
+      background-color: #4181e0;
+      border-radius: 8px 0px 0px 8px;
+      img {
+        position: absolute;
+        top: 35%;
+        left: 35%;
+      }
+    }
+
+    .slideTextContainer {
+      margin-top: 75px;
+      margin-left: 61px;
+      text-align: left;
+
+      .slideH4 {
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 44px;
+      }
+
+      .slideP {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.15px;
+      }
+      .slideSocialMediaContainer {
+        display: flex;
+
+        img:not(:first-child) {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+  opacity: 1 !important;
+  height: 10px !important;
+  width: 10px !important;
+  border: 2px solid #a2badd;
+  background-color: white !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #a2badd !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  top: calc(100% - 20px) !important;
+  color: #a2badd !important;
+  border: 2px solid #a2badd;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-size: 12px !important;
+  width: 40px !important;
+  height: 40px !important;
+  z-index: 11 !important;
+  &::after {
+    font-size: 12px !important;
+    font-weight: bold;
+  }
+}
+
+.swiper-button-prev {
+  left: 25% !important;
+}
+
+.swiper-button-next {
+  right: 20% !important;
+}

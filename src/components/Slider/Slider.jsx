@@ -51,11 +51,8 @@ const Slider = ({ slides }) => {
 
         {slides.map((slide, index) => {
           return (
-            <div className="sliderContainer">
-              <div
-                className={index === current ? 'slide active' : 'slide off'}
-                key={index}
-              >
+            <div key={index} className="sliderContainer">
+              <div className={index === current ? 'slide active' : 'slide off'}>
                 <div className="sliderImage">
                   <img src={user} alt="user" />
                 </div>
