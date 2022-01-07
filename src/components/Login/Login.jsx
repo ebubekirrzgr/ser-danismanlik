@@ -2,8 +2,8 @@ import './login.scss';
 
 import React from 'react';
 
-import JoinUs from '../../components/Login/JoinUs';
-import Subscribe from '../../components/Login/Subscribe';
+import JoinUs from './JoinUs';
+import Subscribe from './Subscribe';
 
 function Login() {
   return (

@@ -18,9 +18,9 @@ function JoinUs() {
 
         <div className="joinUsForm">
           <Form>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3" controlId="formBasicName">
               <Form.Label>Your Name</Form.Label>
-              <Form.Control type="text" placeholder="Enter email" />
+              <Form.Control type="text" placeholder="Enter your name" />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicEmail">

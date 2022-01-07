@@ -8,6 +8,7 @@ import Footer from '../../components/Footer';
 import Slider from '../../components/Slider/Slider';
 import SliderData from '../../components/Slider/SliderData';
 import Carousel from '../../components/Carousel/Carousel';
+import Login from '../../components/Login/Login';
 
 function index() {
   return (
@@ -23,6 +24,9 @@ function index() {
         </div>
         <div className="sliderWrapper">
           <Slider slides={SliderData}></Slider>
+        </div>
+        <div className="loginWrapper">
+          <Login />
         </div>
         <div className="carouselWrapper">
           <Carousel />
